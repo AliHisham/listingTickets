@@ -1,4 +1,11 @@
 {
+  "compilerOptions": {
+    "target": "ES6",
+    "module": "CommonJS",
+    "esModuleInterop": true,
+    "skipLibCheck": true,
+    "types": ["vites/globals"]
+  },
   "files": [],
   "references": [
     { "path": "./tsconfig.app.json" },
